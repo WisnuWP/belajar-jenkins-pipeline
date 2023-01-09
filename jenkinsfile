@@ -7,4 +7,18 @@ pipeline{
             }
         }
     }
+    post{
+        always{
+            echo "I Will Always say to Hello again!"
+        }
+        succes{
+            echo "berhasil"
+        }
+        failure {
+            echo "Erorr"
+        }
+        cleanup{
+            echo "don' care success or error"
+        }
+    }
 }
