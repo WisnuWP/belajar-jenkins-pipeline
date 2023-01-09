@@ -11,7 +11,7 @@ pipeline{
         always{
             echo "I Will Always say to Hello again!"
         }
-        succes{
+        success{
             echo "berhasil"
         }
         failure {
